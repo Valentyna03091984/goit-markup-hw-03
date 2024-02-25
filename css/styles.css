@@ -22,7 +22,9 @@ a {
 button {
     cursor: pointer;
 }
-
+img {
+    display: block;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -39,18 +41,20 @@ body {
 /*----/Common styles----*/
 
 /*----Header styles----*/
-
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
 .page-nav {
     display: flex;
     align-items: center;
 }
 .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 .address-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 .page-header-conteiner {
     display: flex;
@@ -108,10 +112,11 @@ body {
 /*----/Header styles----*/
 /*----/Hero styles----*/
 .hero-container {
-    text-align: center;   
+    text-align: center; 
+
 }
 .title {
-    max-width: 550px;
+    max-width: 496px;
     height: 120px;
     font-size: 56px;
     line-height: 1.07;
@@ -174,6 +179,19 @@ letter-spacing: 0.02em;
 line-height: 1.5;
 
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
+  
 .page-portfolio,
 .page-team {
     background-color: #F4F4FD;
@@ -184,17 +202,25 @@ line-height: 1.5;
 } 
 .section-feature {
     padding-top: 120px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
 }
 .section-title-name {
-    padding-bottom: 17px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.page-text {
+    text-align: center;
 }
 .page-team {
-    padding-top: 60px;
-    padding-bottom: 60px; 
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+.team-portfolio-title {
+    margin-bottom: 72px;
 }
 .page-portfolio {
-    padding-top: 60px;
+    padding-top: 120px;
     padding-bottom: 120px; 
 }
 .menu-feature {
@@ -212,12 +238,25 @@ line-height: 1.5;
 }
 .team-list-item {
     width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
-
+.conteiner-name {
+    padding: 32px 0;
+}
+.conteiner-portfolio {
+    padding: 32px 16px; 
+    border:  1px solid #e7e9fc;
+    border-top: none;
+     
+}
+.name-portfolio {
+    margin-bottom: 8px;
+    text-align: left;
+}
 .portfolio-list{
      display: flex;
      flex-wrap: wrap;
-    gap: 24px;
+     row-gap: 48px;
 }
 .portfolio-list-item {
     width: calc((100% - 48px) / 3);
