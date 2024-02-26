@@ -117,7 +117,7 @@ body {
 }
 .title {
     max-width: 496px;
-    height: 120px;
+    
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -125,7 +125,7 @@ body {
     color: #fff;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 48px;
+    
     margin-bottom: 48px;
 }
 .button {
@@ -162,10 +162,10 @@ body {
     text-align: center;
     color: #2e2f42;
     line-height: 1.11;
-    margin-bottom: 70px;
+    margin-bottom: 72px;
 }
 .section-title-name {
-    padding: 120px 0;
+      
 font-weight: 500;
 font-size: 20px;
 letter-spacing: 0.02em;
@@ -192,10 +192,8 @@ line-height: 1.5;
     overflow: hidden;
     }
   
-.page-portfolio,
-.page-team {
-    background-color: #F4F4FD;
-}
+
+
 .portfolio-list,
 .team-list-item {
     background-color: #FFFFFF;
@@ -203,13 +201,17 @@ line-height: 1.5;
 .section-feature {
     padding-top: 120px;
     padding-bottom: 120px;
+    
 }
-.section-title-name {
+.section-our-team {
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .page-text {
-    text-align: center;
+    text-align: left;
 }
 .page-team {
     padding-top: 120px;
