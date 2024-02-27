@@ -211,7 +211,9 @@ line-height: 1.5;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
+.feature-title {
+   text-align: left; 
+}
 .page-text {
     text-align: left;
 }
