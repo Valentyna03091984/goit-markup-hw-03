@@ -165,15 +165,16 @@ body {
     margin-bottom: 72px;
 }
 .section-title-name {
-      
+text-align: center;     
 font-weight: 500;
 font-size: 20px;
 letter-spacing: 0.02em;
 color: #2e2f42;
 line-height: 1.2;
+margin-bottom: 8px;
 }
 .page-text {
-
+text-align: center;
 font-size: 16px;
 letter-spacing: 0.02em;
 line-height: 1.5;
@@ -210,8 +211,12 @@ line-height: 1.5;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 .page-text {
     text-align: left;
+}
+.team-name-text {
+    text-align: center;
 }
 .page-team {
     padding-top: 120px;
@@ -219,7 +224,8 @@ line-height: 1.5;
 
 }
 .team-portfolio-title {
-    margin-bottom: 72px;
+    margin-bottom: 8px;
+    
 }
 .page-portfolio {
     padding-top: 120px;
